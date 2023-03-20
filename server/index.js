@@ -16,7 +16,6 @@ app.use(express.json());
 app.get("/",(req,res)=>{
     res.json("server start")
 })
-
 app.listen(port, () => {
     console.log(`server is start port number ${port}`);
 });
